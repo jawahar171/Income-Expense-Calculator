@@ -1,0 +1,17 @@
+# Income & Expense Tracker
+
+This is a simple web-based Income & Expense Calculator built using HTML, CSS, and JavaScript. The application allows users to manage their income and expenses by providing functionality to add, edit, and delete entries. It also calculates and displays the total balance, total income, and total expenses.
+
+## Features
+
+- Add income and expense entries.
+- View all entries with filtering options (all, income, expense).
+- Edit and delete existing entries.
+- Persistent data storage using local storage.
+- Responsive design for both mobile and desktop users.
+
+## Technologies Used
+
+- **HTML
+- **CSS
+- **JAVASCRIPT
