@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('istockphoto-528219721-612x612.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 520px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #c7fd05;
+    box-shadow: 0 2px 10px rgba(132, 6, 6, 0.1);
+    border-radius: 20px;
+    border: #620355;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(45, 8, 132);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+.balance h1 {
+    font-size: 24px;
+    color: red;
+    margin: 20px 0;
+}
+
+.income-expense-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 2px solid #0e010e;
+    border-bottom: 2px solid #030000;
+}
+
+.income-expense-container div {
+    text-align: center;
+    width: 50%;
+}
+
+.money {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.money.plus {
+    color: green;
+}
+
+.money.minus {
+    color: red;
+}
+
+#transaction-form {
+    margin-bottom: 30px;
+}
+
+#transaction-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #c71b93;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid;
+}
+
+.list li.income {
+    border-color: green;
+}
+
+.list li.expense {
+    border-color: red;
+}
+
+.delete-btn, .edit-btn {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    margin-right: 5px;
+}
